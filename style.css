@@ -1,0 +1,168 @@
+body {
+    font-family: "roboto", sans-serif;
+    margin:0px;
+}
+
+.box-one {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.heromain {
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.text {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: lighter;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border:none;
+    text-align:center;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 8px;
+    width: 90px;
+    height: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.boxyone {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 340px;
+    
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;;
+    margin-right: 310px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 90px;
+}
+
+.subtitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    margin: 30px;
+}
+
+.box-three {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.thor {
+    font-size: 20px;
+    font-weight: bold;
+    display:flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    margin-right: 400px;
+}
+
+.boxy-two {
+    background-color: #3882f6;
+    margin: 200px;
+    padding: 60px;
+    border-radius: 8px;
+}
+
+.action1, .action2 {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.action1 {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 212px;
+}
+
+.action2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttontwo {
+    border:2px solid white;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.box-five {
+    background-color: #1f2937;
+    padding: 30px;
+}
+
+.copy {
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
