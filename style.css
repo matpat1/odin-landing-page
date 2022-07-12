@@ -1,6 +1,8 @@
 body {
     font-family: "roboto", sans-serif;
     margin:0px;
+    padding: 0px;
+    text-align: center;
 }
 
 .box-one {
@@ -65,7 +67,8 @@ ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-left: 340px;
+    padding: 0 100px 0 100px;
+    margin: 0 100px 100px 150px;
     
 }
 
@@ -74,10 +77,7 @@ ul {
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;;
-    margin-right: 310px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 90px;
+    margin: 100px 50px 100px 30px;
 }
 
 .subtitle {
@@ -103,7 +103,7 @@ ul {
 
 .box-three {
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 50px;
 }
 
 .quote {
@@ -111,8 +111,7 @@ ul {
     font-weight:lighter;
     font-style: italic;
     color: #1f2937;
-    margin-left: 300px;
-    margin-right: 300px;
+    padding: 0 200px;
 }
 
 .thor {
@@ -121,38 +120,35 @@ ul {
     display:flex;
     justify-content: flex-end;
     color: #1f2937;
-    margin-right: 400px;
+    padding: 0 200px;
 }
 
+.box-four {
+    padding: 0 10px;
+}
 .boxy-two {
     background-color: #3882f6;
-    margin: 200px;
-    padding: 60px;
+    margin: 50px 200px;
+    padding: 25px 50px;
     border-radius: 8px;
 }
 
-.action1, .action2 {
+.action {
+    font-size: large;
     color: white;
     display: flex;
-    flex-wrap: wrap;
-}
-
-.action1 {
-    font-weight: bold;
-    font-size: large;
-    margin-left: 212px;
-}
-
-.action2 {
-    display: flex;
     justify-content: space-around;
+    align-items: center;
+
 }
+
 
 .buttontwo {
     border:2px solid white;
     display: flex;
     justify-content: center;
     border-radius: 8px;
+    padding: 0px
 }
 
 .box-five {
